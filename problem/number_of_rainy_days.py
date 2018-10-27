@@ -11,5 +11,3 @@ def num_rainy_days(filename):
 
     rainy_days = pandasql.sqldf(q.lower(), locals())
     return rainy_days
-
-print(num_rainy_days('../datas/weather_underground.csv'))
